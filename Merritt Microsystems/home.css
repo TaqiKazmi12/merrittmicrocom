@@ -1,0 +1,405 @@
+.Header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: changeBackground 10s infinite alternate;
+}
+
+/* Animation Keyframes */
+@keyframes changeBackground {
+    0% {
+        background-image: url(Homebg.png);
+    }
+    50% {
+        background-image: url(Homebg2.png);
+    }
+    100% {
+        background-image: url(Homebg.png);
+    }
+}
+
+.header-content {
+    text-align: center;
+    color: #fff;
+}
+
+.header-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.header-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.header-content .btn {
+    padding: 10px 20px;
+    background-color: #004d4d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.header-content .btn:hover {
+    background-color: transparent !important;
+    border: 2px solid #004d4d !important;
+    color: white !important;
+}
+
+.container23 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Style for the question container */
+.question-container {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* Style for the question */
+.question {
+    background-color: #f0f0f0;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style for the expanded answer */
+.answer {
+    padding: 10px;
+    display: none;
+}
+.container245{
+    
+}
+/* Style for the expand button */
+.expand-btn {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Style for the Learn More button */
+.learn-more {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #004d4d;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.learn-more:hover {
+    background-color: #09aaaa;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Your website background color */
+}
+
+.header {
+    background-color: #004d4d; /* Your website color */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.about-section .about-info {
+    width: 760px;
+    margin-right: 20px;
+}
+
+.about-section .about-info h2 {
+    color: #004d4d; /* Your website color */
+    border-bottom: 2px solid #004d4d; /* Your website color */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.about-section .about-info p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.question-box {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.question-box:hover {
+    background-color: #f9f9f9;
+}
+
+.question-box.active .answer {
+    display: block;
+}
+
+.answer {
+    display: none;
+    padding: 10px;
+}
+
+.aboutus23{
+    background-color: #004d4d !important;
+    color: white !important;
+}
+.expand-btn {
+    float: right;
+}
+.aboutusheading34 {
+    text-align: center;
+    font-size: 3.5vw; /* Responsive font size */
+    text-decoration: underline 0.4vw solid #004d4d; /* Responsive underline thickness */
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.aboutuspara {
+    max-width: 90%; /* Adjust maximum width as needed */
+    margin: 0 auto; /* Center the paragraph */
+    text-align: center;
+    font-size: 1.8vw; /* Responsive font size */
+    line-height: 1.6; /* Adjust line height as needed */
+    padding: 0 10px; /* Adjust padding as needed */
+    margin-bottom: 200px;
+}
+
+.product-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.product-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.product-name {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.product-description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #004d4d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: transparent !important;
+    border: 2px solid #004d4d !important;
+    color: #004d4d !important;
+}
+
+/* Style for the product cards section */
+.big-container {
+    background-color: #004d4d; /* Your website color */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.white-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    color: #004d4d; /* Your website color */
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.product-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-card {
+    width: calc(25% - 20px); /* Equal width for 4 cards with gap */
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-image {
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+    object-fit: cover;
+    border-bottom: 1px solid #ccc; /* Separator line */
+}
+
+.product-name {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.product-price {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.btn.learn-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #004d4d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn.learn-more:hover {
+    background-color: transparent !important;
+    border: 2px solid #004d4d !important;
+    color: #004d4d !important;
+}
+
+@media (max-width: 768px) {
+    .product-card {
+        width: calc(50% - 20px); /* Equal width for 2 cards with gap on smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .product-card {
+        width: calc(100% - 20px); /* Full width for 1 card on extra small screens */
+    }
+}
+.feedback-section {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f0f0f0; /* Background color for the section */
+}
+
+.section-title {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #004d4d; /* Color for the section title */
+}
+
+/* Feedback Section */
+.feedback-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.feedback-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: left;
+}
+
+.customer-name {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #004d4d;
+}
+
+.customer-feedback {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* FAQ Section */
+/* FAQ Section */
+.faq-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.question-container {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+
+.question2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.answer2 {
+    margin-left: 20px;
+    color: #555;
+    line-height: 1.6;
+    font-size: 16px;
+}
+

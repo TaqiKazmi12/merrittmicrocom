@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.service-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+}
+
+.service-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #004d4d;
+    margin-bottom: 10px;
+}
+
+.service-description {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.tochange {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+}

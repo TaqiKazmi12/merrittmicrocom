@@ -1,0 +1,52 @@
+#aboutus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; /* Added padding for better spacing */
+}
+#aboutusheading{
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline 2px solid #004d4d;
+}
+.container1 {
+    max-width: 800px; /* Adjust the max-width as needed */
+    margin-bottom: 20px; /* Add margin-bottom to separate questions */
+    background-color: #f9f9f9; /* Light background color */
+    border: 1px solid #ddd; /* Border for better visibility */
+    border-radius: 5px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow content */
+    transition: all 0.3s ease; /* Smooth transition */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for container */
+}
+.forhver:hover {
+    transform: translateY(-5px); /* Lift container on hover */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Enhanced box shadow */
+}
+.question {
+    padding: 10px;
+    cursor: pointer;
+}
+.questionh1 {
+    font-size: 24px;
+    text-decoration: underline #004d4d;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.whenclicked {
+    font-size: 30px;
+    float: right;
+    transform: rotate(0deg); /* Initial rotation */
+    transition: transform 0.3s ease; /* Smooth transition for rotation */
+}
+.hiddenp {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+.hiddenp.active {
+    max-height: 500px; /* Adjust the max-height as needed */
+}
+.whenclicked.active {
+    transform: rotate(45deg); /* Rotate icon on click */
+}
